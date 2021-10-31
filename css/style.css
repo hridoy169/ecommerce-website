@@ -95,6 +95,73 @@ h2 {
   text-transform: uppercase;
 }
 
+.section1Button h1 {
+  letter-spacing: 28px;
+}
+
 .color {
   color: #7a72ff;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #2f2e41;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+  margin-top: 20px;
+  font-family: calibri;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  border: transparent !important;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #6e64ff;
+  transition: all ease 0.5s;
+}
+
+.iconArea {
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  padding: 5px 0px;
+  z-index: 1;
+}
+
+.iconArea a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.iconArea a i {
+  color: rgba(39, 39, 39, 0.8);
+}
+
+.iconArea a:hover .fa-facebook-f {
+  color: #3b5998;
+}
+.iconArea a:hover .fa-twitter {
+  color: #00acee;
+}
+.iconArea a:hover .fa-instagram {
+  color: #3f729b;
+}
+.iconArea a:hover .fa-youtube {
+  color: #ff0000;
 }
