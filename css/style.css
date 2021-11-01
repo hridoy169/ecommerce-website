@@ -358,3 +358,13 @@ footer p {
   text-align: center;
   color: #f2f2f2;
 }
+
+/* Mobile View
+@media (max-width: 768px) {
+  .section1 {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -30%);
+  }
+} */
