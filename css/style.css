@@ -278,3 +278,21 @@ h2 {
   height: 100%;
   object-fit: contain;
 }
+
+.aboutBox h1 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.aboutBox h4 {
+  color: #333333;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+.aboutBox p {
+  color: #bdbdbd;
+  letter-spacing: 0.5px;
+}
